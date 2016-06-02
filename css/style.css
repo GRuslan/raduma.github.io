@@ -64,6 +64,7 @@
     font-family: "font-family: 'Fjalla One', sans-serif";
     font-weight: 400;
     color: #ca9333;
+    text-align: right;
     line-height: 0.5em;
 }
 #footer {
@@ -106,7 +107,7 @@
 
 .flag {
     height: 30px;
-    margin-right: 15px;
+    margin-left: 15px;
    
 }
 
