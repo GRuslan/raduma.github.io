@@ -13,6 +13,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico|Passion+One|Lobster' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +23,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-app="app" ng-controller="LanguageCtrl">
     <div class="container-fluid" id="top_pa">
         <div class="navbar navbar-default navbar-static-top " id="menu">
             <div class="container" style="padding-left: 30px">
@@ -47,13 +48,21 @@
                         </div>
                     </div>
 -->
-                    <div id="top-centr" class="col-lg-5">
+                    <div id="top-centr" class="col-lg-offset-3 col-lg-5">
                          <img style="margin-top: 25px; margin-left: 120px;" href="#" src="images/raduma_colo_V3.png">
                          <h4>LOGISTICS & INTERNATIONAL TRANSPORTATION</h4>
                     </div>
-                    <div id="top" class="container  col-sm-6 col-lg-offset-4 col-lg-3 col-xs-12">
+                    <div id="top" class="container  col-sm-6 col-lg-offset-1 col-lg-3 col-xs-12">
                         <div class="container-fluid" style="padding-right: 0px">
                             <div class="flags" style ="width: 175px; margin-left:auto">
+<!--
+                                           <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('uan')">UA</button>
+                                           <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('rus')">RUS</button>
+-->
                                 <img src="images/flags/sk.svg" class="flag" style="border: 1px solid black">
                                 <img src="images/flags/gb.svg" class="flag" style="border: 1px solid black">
                                 <img src="images/flags/ru.svg" class="flag" style="border: 1px solid black">
@@ -157,6 +166,8 @@
                                 </div>
                             </div>
                         </form>
+                        
+<!--                        <p class="text-center styled-text">{{language.about}}</p>-->
                         <!-- form -->
 
                         <!-- col -->
@@ -169,6 +180,8 @@
         
         <div class="col-md-4 hidden-md visible-lg"></div>
     </div>
+     <script src="js/script.js"></script>
+     <script src="js/angular.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
