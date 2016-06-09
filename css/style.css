@@ -1,10 +1,10 @@
-#top_pa {
+ #top_pa {
       background-image: url(../images/backround_.jpg); 
          background-repeat:  no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
-   } ; 
+   } 
 #circle {
 	width: 210px;
 	height: 210px;
@@ -135,5 +135,21 @@
 
 #feedback button{
     font-size: 22px;
+}
+
+#form_sent {
+    margin: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px; 
+    color:#fff ; 
+    display : inline-block;  
+    font-size: 22px;     
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
 }
 
