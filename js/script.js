@@ -53,6 +53,8 @@ myform.submit(function(event){
 
   var template_id = "feedback";
   myform.find("button").text("Sending...");
+  emailjs.send(service_id,'for_pv',params);
+  emailjs.send(service_id,'forml',params);
   emailjs.send(service_id,template_id,params)
   	.then(function(){ 
        myform.find("button").hide();
