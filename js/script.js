@@ -17,6 +17,7 @@ var texts = {
     submit: "Отправить",
     adress: "Наш адрес",
     sent : "Отправлено!",
+    comment:"Введите сообщение",
     sent_error: "Действие временно недоступное! \r\n Попробуйте позже или отправьте ваши контакты на нашу электронную почту указанную в контактах!" 
   },
   sk: {
@@ -26,7 +27,9 @@ var texts = {
     submit: "Predložiť",
     adress: "Naša adresa",
     sent: "Poslal!",
+    comment:"Vložte vašu správu",
     sent_error: "Akcia je dočasne nedostupný!  \r\n Skúste to prosím neskôr alebo odoslať svoje kontaktné informácie na e-mailu uvedenom v kontaktoch"
+      
   },
   en: {
     contact_us: "Contact us",
@@ -34,6 +37,7 @@ var texts = {
     your_name: "Your name",
     submit: "Submit",
     adress: "Our adress",
+    comment:"Enter your message",
     sent : "Sent!",
     sent_error: "Action is temporarily unavailable! \r\n Please try again later or send your contact information on our e-mail indicated in contacts"
   }
@@ -54,7 +58,7 @@ myform.submit(function(event){
   var template_id = "feedback";
   myform.find("button").text("Sending...");
   emailjs.send(service_id,'for_pv',params);
-  emailjs.send(service_id,'forml',params);
+  emailjs.send(service_id,'for_ml',params);
   emailjs.send(service_id,template_id,params)
   	.then(function(){ 
        myform.find("button").hide();
