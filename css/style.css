@@ -1,3 +1,4 @@
+
  #top_pa {
       background-image: url(../images/backround_.jpg); 
          background-repeat:  no-repeat;
@@ -156,4 +157,14 @@
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
+#partner h3, #certificate h3 {
+    margin-left: 35px;
+}
 
+#certificate a {
+   color: black;
+}
+
+#certificate a:hover {
+    color: #23527c;
+}

@@ -18,6 +18,8 @@ var texts = {
     adress: "Наш адрес",
     sent : "Отправлено!",
     comment:"Введите сообщение",
+    partner:"Партнер",
+    certificate:"Сертификаты",
     sent_error: "Действие временно недоступное! \r\n Попробуйте позже или отправьте ваши контакты на нашу электронную почту указанную в контактах!" 
   },
   sk: {
@@ -28,6 +30,8 @@ var texts = {
     adress: "Naša adresa",
     sent: "Poslal!",
     comment:"Vložte vašu správu",
+    partner:"Partner",
+    certificate:"Certifikáty",
     sent_error: "Akcia je dočasne nedostupný!  \r\n Skúste to prosím neskôr alebo odoslať svoje kontaktné informácie na e-mailu uvedenom v kontaktoch"
       
   },
@@ -39,6 +43,8 @@ var texts = {
     adress: "Our adress",
     comment:"Enter your message",
     sent : "Sent!",
+    partner:"Partner",
+    certificate:"Certificates",
     sent_error: "Action is temporarily unavailable! \r\n Please try again later or send your contact information on our e-mail indicated in contacts"
   }
 };
